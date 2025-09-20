@@ -3,17 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NWNL - Home</title>
+    <title>NWNL - Webpage</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="lobby">
-      <div class="glass-container">
+    <!-- HERO SECTION -->
+    <section class="hero fade-in">
+      <div class="glass-container slide-up">
         <nav class="navbar">
           <div class="logo">NWNL</div>
           <ul class="nav-links">
             <li class="nav-link"><a href="#">Home</a></li>
             <li class="nav-link"><a href="about.html">About</a></li>
+            <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
           </ul>
         </nav>
 
@@ -23,8 +25,7 @@
             <h1>it's NWNL</h1>
             <p>
               Greetings, my name is Keyzra known as NWNL/kei.<br />
-              It's my personal website, if you want to talk to me just contact
-              me below.
+              It's my personal website, for any inq just contact me below!
             </p>
             <button>
               <a href="mailto:nwnlgotnoshawty@gmail.com">Contact Me</a>
@@ -32,6 +33,43 @@
           </main>
         </div>
       </div>
-    </header>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio fade-in">
+      <div class="glass-container portfolio-box slide-up">
+        <h2>My Portfolio</h2>
+        <p>Here are some of my works and projects</p>
+        <div class="projects">
+          <div class="project-card fade-in-up">
+            <img src="img/project1.jpg" alt="Project 1" />
+            <h3>Project 1</h3>
+          </div>
+          <div class="project-card fade-in-up">
+            <img src="img/project2.jpg" alt="Project 2" />
+            <h3>Project 2</h3>
+          </div>
+          <div class="project-card fade-in-up">
+            <img src="img/project3.jpg" alt="Project 3" />
+            <h3>Project 3</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2025 NWNL. All rights reserved.</p>
+      <div class="social-links">
+        <a href="mailto:nwnlgotnoshawty@gmail.com">Email</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      </div>
+    </footer>
+
+    <!-- SCROLL TO TOP BUTTON -->
+    <button id="scrollTopBtn">⬆</button>
+
+    <script src="script.js"></script>
   </body>
 </html>
